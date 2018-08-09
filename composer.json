@@ -1,0 +1,26 @@
+{
+	"name": "diiimonn/yii2-module-verification",
+	"description": "Verification module for Yii 2 Framework.",
+	"keywords": ["yii2", "extension", "module", "verification"],
+	"homepage": "https://github.com/diiimonn/yii2-module-verification",
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Dmitry Havrilenko",
+			"email": "diiimonn@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+    "require-dev": {
+		"phpunit/phpunit": "~4.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"diiimonn\\modules\\verification\\": ""
+		}
+	}
+}
